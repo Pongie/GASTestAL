@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\asyncmixin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\asyncmixin\\module.asyncmixin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\asyncmixin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\asyncmixin\\definitions.asyncmixin.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\asyncmixin\\source\\private\\asyncmixin.cpp",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\asyncmixin\\source\\public\\asyncmixin.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanager.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanagertypes.h",
+            "d:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetmanagertypes.generated.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformchunkinstall.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\contentencryptionconfig.h",
+            "d:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetmanager.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\asyncmixin\\source\\private\\asyncmixinmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

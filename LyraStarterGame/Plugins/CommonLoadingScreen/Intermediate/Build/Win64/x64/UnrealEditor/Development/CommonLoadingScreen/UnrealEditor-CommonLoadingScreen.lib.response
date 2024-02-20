@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CommonLoadingScreen.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Andres\Documents\GitHub\GASTestAL\LyraStarterGame\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Andres\Documents\GitHub\GASTestAL\LyraStarterGame\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\Development\CommonLoadingScreen\Module.CommonLoadingScreen.cpp.obj"
+"C:\Users\Andres\Documents\GitHub\GASTestAL\LyraStarterGame\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\Development\CommonLoadingScreen\Default.rc2.res"
+/OUT:"C:\Users\Andres\Documents\GitHub\GASTestAL\LyraStarterGame\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\Development\CommonLoadingScreen\UnrealEditor-CommonLoadingScreen.lib"

@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\private\\lyracontexteffectslibraryfactory.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraeditor\\definitions.lyraeditor.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\private\\lyracontexteffectslibraryfactory.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\lyracontexteffectslibraryfactory.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyragame\\feedback\\contexteffects\\lyracontexteffectslibrary.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyragame\\uht\\lyracontexteffectslibrary.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\lyracontexteffectslibraryfactory.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

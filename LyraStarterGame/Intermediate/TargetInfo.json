@@ -1,0 +1,29 @@
+{
+	"Targets": [
+		{
+			"Name": "LyraClient",
+			"Path": "C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraClient.Target.cs",
+			"Type": "Client"
+		},
+		{
+			"Name": "LyraEditor",
+			"Path": "C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "LyraGame",
+			"Path": "C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LyraGameEOS",
+			"Path": "C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraGameEOS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LyraServer",
+			"Path": "C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}

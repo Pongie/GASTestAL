@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\validation\\editorvalidator_materialfunctions.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraeditor\\definitions.lyraeditor.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\validation\\editorvalidator_materialfunctions.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\validation\\editorvalidator.h",
+            "d:\\ue_5.2\\engine\\plugins\\editor\\datavalidation\\source\\datavalidation\\public\\editorvalidatorbase.h",
+            "d:\\ue_5.2\\engine\\plugins\\editor\\datavalidation\\intermediate\\build\\win64\\unrealeditor\\inc\\datavalidation\\uht\\editorvalidatorbase.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\editorvalidator.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\editorvalidator_materialfunctions.generated.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "d:\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "d:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\lyraeditor.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\source\\lyraeditor\\validation\\editorvalidator_load.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\editorvalidator_load.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraeditor\\uht\\editorvalidator_materialfunctions.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
