@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\module.lyraexttool.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\definitions.lyraexttool.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\lyraexttool.init.gen.cpp",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\source\\lyraexttool\\private\\bpfunctionlibrary.cpp",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\source\\lyraexttool\\public\\bpfunctionlibrary.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\bpfunctionlibrary.generated.h",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\bpfunctionlibrary.gen.cpp",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\source\\lyraexttool\\private\\lyraexttool.cpp",
+            "c:\\users\\andres\\documents\\github\\gastestal\\lyrastartergame\\plugins\\lyraexttool\\source\\lyraexttool\\public\\lyraexttool.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
