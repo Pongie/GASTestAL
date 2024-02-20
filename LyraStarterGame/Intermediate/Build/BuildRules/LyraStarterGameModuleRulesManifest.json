@@ -1,0 +1,28 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraEditor\\LyraEditor.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraGame\\LyraGame.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\AsyncMixin\\Source\\AsyncMixin.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\CommonGame\\Source\\CommonGame.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\CommonLoadingScreen\\Source\\CommonLoadingScreen\\CommonLoadingScreen.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\CommonLoadingScreen\\Source\\CommonStartupLoadingScreen\\CommonStartupLoadingScreen.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\CommonUser\\Source\\CommonUser\\CommonUser.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameFeatures\\ShooterCore\\Source\\ShooterCoreRuntime\\ShooterCoreRuntime.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameFeatures\\ShooterTests\\Source\\ShooterTestsRuntime\\ShooterTestsRuntime.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameFeatures\\TopDownArena\\Source\\TopDownArenaRuntime\\TopDownArenaRuntime.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameplayMessageRouter\\Source\\GameplayMessageNodes\\GameplayMessageNodes.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameplayMessageRouter\\Source\\GameplayMessageRuntime\\GameplayMessageRuntime.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameSettings\\Source\\GameSettings.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\GameSubtitles\\Source\\GameSubtitles.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\LyraExtTool\\Source\\LyraExtTool\\LyraExtTool.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\ModularGameplayActors\\Source\\ModularGameplayActors\\ModularGameplayActors.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\PocketWorlds\\Source\\PocketWorlds.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Plugins\\UIExtension\\Source\\UIExtension.Build.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraClient.Target.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraEditor.Target.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraGame.Target.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraGameEOS.Target.cs",
+		"C:\\Users\\Andres\\Documents\\GitHub\\GASTestAL\\LyraStarterGame\\Source\\LyraServer.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

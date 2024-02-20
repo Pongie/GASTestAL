@@ -1,0 +1,6 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\Users\Andres\Documents\GitHub\GASTestAL\LyraStarterGame\LyraStarterGame.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\Andres\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andres\Documents\GitHub\GASTestAL).
+  Target is up to date
+  Total execution time: 0.34 seconds
