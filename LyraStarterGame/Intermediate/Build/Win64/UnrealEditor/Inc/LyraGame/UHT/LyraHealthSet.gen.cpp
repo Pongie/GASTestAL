@@ -149,6 +149,70 @@ void EmptyLinkFunctionForGeneratedCodeLyraHealthSet() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_Damage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASHealth_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASHealth;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASMaxHealth_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASMaxHealth;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASBonusHealth_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASBonusHealth;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASHealthDamage_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASHealthDamage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASHealing_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASHealing;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASArmorDamageReduction_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASArmorDamageReduction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASLevel_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASLevel;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASMana_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASMana;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASMaxMana_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASMaxMana;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASManaRegen_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASManaRegen;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASManaDamage_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASManaDamage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASExperience_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASExperience;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASExperienceNeeded_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASExperienceNeeded;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASHealthDamageOverTime_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASHealthDamageOverTime;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASKnockbackPower_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASKnockbackPower;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GASSize_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_GASSize;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -212,11 +276,159 @@ void EmptyLinkFunctionForGeneratedCodeLyraHealthSet() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, Damage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Damage_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealth_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASHealth" },
+		{ "Comment", "//Core GAS Design Test Attributes\n" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+		{ "ToolTip", "Core GAS Design Test Attributes" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealth = { "GASHealth", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASHealth), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealth_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxHealth_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASMaxHealth" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxHealth = { "GASMaxHealth", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASMaxHealth), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxHealth_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASBonusHealth_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASBonusHealth" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASBonusHealth = { "GASBonusHealth", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASBonusHealth), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASBonusHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASBonusHealth_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamage_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASHealthDamage" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamage = { "GASHealthDamage", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASHealthDamage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamage_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealing_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASHealing" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealing = { "GASHealing", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASHealing), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealing_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASArmorDamageReduction_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASArmorDamageReduction" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASArmorDamageReduction = { "GASArmorDamageReduction", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASArmorDamageReduction), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASArmorDamageReduction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASArmorDamageReduction_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASLevel_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASLevel" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASLevel = { "GASLevel", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASLevel), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASLevel_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMana_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASMana" },
+		{ "Comment", "//Custom GAS Design Test Attributes\n" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+		{ "ToolTip", "Custom GAS Design Test Attributes" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMana = { "GASMana", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASMana), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMana_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMana_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxMana_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASMaxMana" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxMana = { "GASMaxMana", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASMaxMana), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxMana_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxMana_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaRegen_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASManaRegen" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaRegen = { "GASManaRegen", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASManaRegen), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaRegen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaRegen_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaDamage_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASManaDamage" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaDamage = { "GASManaDamage", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASManaDamage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaDamage_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperience_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASExperience" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperience = { "GASExperience", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASExperience), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperience_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperience_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperienceNeeded_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASExperienceNeeded" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperienceNeeded = { "GASExperienceNeeded", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASExperienceNeeded), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperienceNeeded_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperienceNeeded_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamageOverTime_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASHealthDamageOverTime" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamageOverTime = { "GASHealthDamageOverTime", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASHealthDamageOverTime), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamageOverTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamageOverTime_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASKnockbackPower_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASKnockbackPower" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASKnockbackPower = { "GASKnockbackPower", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASKnockbackPower), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASKnockbackPower_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASKnockbackPower_MetaData)) }; // 1256614452
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASSize_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Lyra|GASSize" },
+		{ "ModuleRelativePath", "AbilitySystem/Attributes/LyraHealthSet.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASSize = { "GASSize", nullptr, (EPropertyFlags)0x0040000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ULyraHealthSet, GASSize), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASSize_MetaData)) }; // 1256614452
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULyraHealthSet_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Health,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_MaxHealth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Healing,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_Damage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealth,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxHealth,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASBonusHealth,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealing,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASArmorDamageReduction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASLevel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMana,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASMaxMana,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaRegen,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASManaDamage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperience,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASExperienceNeeded,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASHealthDamageOverTime,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASKnockbackPower,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULyraHealthSet_Statics::NewProp_GASSize,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ULyraHealthSet_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ULyraHealthSet>::IsAbstract,
@@ -267,9 +479,9 @@ void EmptyLinkFunctionForGeneratedCodeLyraHealthSet() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LyraStarterGame_Source_LyraGame_AbilitySystem_Attributes_LyraHealthSet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ULyraHealthSet, ULyraHealthSet::StaticClass, TEXT("ULyraHealthSet"), &Z_Registration_Info_UClass_ULyraHealthSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULyraHealthSet), 394680007U) },
+		{ Z_Construct_UClass_ULyraHealthSet, ULyraHealthSet::StaticClass, TEXT("ULyraHealthSet"), &Z_Registration_Info_UClass_ULyraHealthSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULyraHealthSet), 2264812406U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LyraStarterGame_Source_LyraGame_AbilitySystem_Attributes_LyraHealthSet_h_1376326505(TEXT("/Script/LyraGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LyraStarterGame_Source_LyraGame_AbilitySystem_Attributes_LyraHealthSet_h_1034052471(TEXT("/Script/LyraGame"),
 		Z_CompiledInDeferFile_FID_LyraStarterGame_Source_LyraGame_AbilitySystem_Attributes_LyraHealthSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_LyraStarterGame_Source_LyraGame_AbilitySystem_Attributes_LyraHealthSet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
